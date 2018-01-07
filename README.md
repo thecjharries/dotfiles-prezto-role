@@ -1,7 +1,7 @@
 # `dotfiles-role-prezto`
 
 [![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-prezto.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-prezto)
-[![GitHub release](https://img.shields.io/github/release/thecjharries/dotfiles-role-prezto.svg)](https://github.com/thecjharries/dotfiles-role-prezto)
+[![GitHub tag](https://img.shields.io/github/tag/thecjharries/dotfiles-role-prezto.svg)](https://github.com/thecjharries/dotfiles-role-prezto)
 
 ## Requirements
 
