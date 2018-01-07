@@ -1,6 +1,8 @@
-# `dotfiles-prezto-role`
+# `dotfiles-role-prezto`
+# `dotfiles-role-prezto`
 
-[![Build Status](https://travis-ci.org/thecjharries/dotfiles-prezto-role.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-prezto-role)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-prezto.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-prezto)
+[![Build Status](https://travis-ci.org/thecjharries/dotfiles-role-prezto.svg?branch=master)](https://travis-ci.org/thecjharries/dotfiles-role-prezto)
 
 ## Requirements
 
@@ -32,11 +34,16 @@ needed_packages:
 
 ```yml
 ---
-- src: git+https://github.com/thecjharries/dotfiles-common-software-role.git
-- src: git+https://github.com/thecjharries/dotfiles-package-installer-role.git
-- src: git+https://github.com/thecjharries/dotfiles-generic-template-role.git
-- src: git+https://github.com/thecjharries/dotfiles-git-role.git
-- src: git+https://github.com/thecjharries/dotfiles-repo-installer-role.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-common-software.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-package-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
+- src: git+https://github.com/thecjharries/dotfiles-role-generic-template.git
+- src: git+https://github.com/thecjharries/dotfiles-role-git.git
+- src: git+https://github.com/thecjharries/dotfiles-role-git.git
+- src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
+- src: git+https://github.com/thecjharries/dotfiles-role-repo-installer.git
 ```
 
 ## Example Playbook
@@ -46,7 +53,8 @@ needed_packages:
 - hosts: all
 
   roles:
-    - role: dotfiles-prezto-role
+    - role: dotfiles-role-prezto
+    - role: dotfiles-role-prezto
 ```
 
 ## License
