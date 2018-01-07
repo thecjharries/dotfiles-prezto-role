@@ -1,7 +1,7 @@
 ---
 allow_duplicates: no
 dependencies:
-  - role: dotfiles-common-software-role
-  - role: dotfiles-git-role
-  - role: dotfiles-package-installer-role
+  - role: dotfiles-role-common-software
+  - role: dotfiles-role-git
+  - role: dotfiles-role-package-installer
     packages_to_install: "{{ needed_packages }}"
